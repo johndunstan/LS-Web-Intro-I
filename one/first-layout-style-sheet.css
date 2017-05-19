@@ -1,0 +1,32 @@
+/* == Upper Elements - Responsive == */
+
+#top-div {
+	height: 1000px;
+	width: 100%;
+}
+
+#red-div {
+	height: 10%;
+	width: 100%;
+	background-color: red;
+}
+
+#yellow-div {
+	height: 90%;
+	width: 100%;
+	background-color: yellow;
+}
+
+#blue-div {
+	height: 90%;
+	width: 80%;
+	background-color: blue;
+	margin: auto;
+}
+
+#green-div {
+	height: 10%;
+	width: 80%;
+	background-color: green;
+	margin: auto;
+}

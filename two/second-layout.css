@@ -1,0 +1,43 @@
+/* I solved this using Flexbox (at least for aligning the three middle divs) - see link below or Google 'Flexbox' for more info.*/
+/* http://stackoverflow.com/questions/2603700/how-to-align-3-divs-left-center-right-inside-another-div/32122011#32122011 */
+
+#top-div {
+	height: 150px;
+	width: 100%;
+	background-color: red;
+}
+
+#middle-div {
+	height: 700px;
+	display: flex;                  /* establish flex container */
+  	flex-direction: row;            /* default value; can be omitted */
+  	flex-wrap: nowrap;              /* default value; can be omitted */
+  	justify-content: space-between; /* switched from default (flex-start, see below) */
+}
+
+.middle {
+	width: 33.33%;
+}
+
+#right-middle {
+	height: 100%;
+	background-color: yellow;
+}
+
+#left-middle {
+	height: 100%;
+	width: 33.33%;
+	background-color: blue;
+}
+
+#middle-middle {
+	height: 100%;
+	width: 33.33%px;
+	background-color: purple;
+}
+
+#bottom-div {
+	height: 150px;
+	width: 100%;
+	background-color: green;
+}

@@ -1,0 +1,49 @@
+#top-div {
+	height: 100px;
+	width: 100%;
+	background-color: purple;
+}
+
+#main-div {
+	height: 100%;
+	width: 80%;
+	background-color: red;
+	margin: 0px auto 0px auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.blue-div {
+	height: 400px;
+	width: 70%;
+	background-color: blue;
+	margin: auto;
+	padding: 30px 30px 60px 30px;
+}
+
+#top-blue-div {
+	margin-bottom: 60px;
+}
+
+#middle-blue-div {
+	margin-bottom: 60px;
+}
+
+#bottom-blue-div {
+
+}
+
+.yellow-square {
+	height: 250px;
+	width: 250px;
+	background-color: yellow;
+	float: left;
+}
+
+.inner-green-box {
+	height: 350px;
+	width: 500px;
+	background-color: green;
+	padding-left: 10px;
+	float: right;
+}
